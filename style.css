@@ -1,0 +1,613 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    background: rgb(233, 238, 240);
+    color:cornsilk;
+    border-radius: 10px;
+    
+}
+
+.header_navar-icon-link{
+    color: var(--white-color);
+    text-decoration: none;
+    float:right;
+    text-align: justify;
+    background: rgb(191, 216, 240);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.header_navar-icon{
+    color: var(--white-color);
+    text-decoration: none;
+    float:left;
+    text-align: justify;
+    background: rgb(191, 216, 240);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.mn{
+    background-color:rgb(228, 212, 212) ;
+}
+
+.menu{
+    overflow: hidden;
+}
+.menu>li{
+    float: left;
+    list-style: none;
+    
+}
+.menu li a{
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.menu li a:hover{
+    color:orange;
+}
+
+#login{
+    padding-left: 380px;
+    float:left;
+    text-align: right;
+}
+
+
+body{
+    font-family: Arial ;
+    /* padding: 5px; */
+    background: rgb(228, 212, 212);
+}
+.ava{
+    margin-top: 0%;
+    border-radius: 10px;
+}
+.ava:hover{
+    transform:scale(1.01);
+}
+#leftcolumn{
+    width: 75%;
+    float:left;
+}
+
+.card-news{
+    border-radius: 10px;
+    width: 26%;
+    background-color: white;
+    padding:20px;
+    margin:20px;
+    float: left;
+    box-shadow: 4px 4px 3px grey;
+
+}
+.row::after{
+    position:absolute;
+    content: "";
+    display: table;
+    clear: both;
+}
+.rightcolumn{
+    float: right;
+    width: 25%;
+    border-radius: 10px;
+}
+.card{
+    background-color: white;
+    padding:20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.footer{
+    width: 100%;
+    clear:both;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 236);
+    position: relative;
+    font-weight: normal;
+}
+#aya{
+    width: 50%;
+    padding-left: -50px;
+    box-align:text-justify;
+    float:right;
+    text-justify: unset;
+    color: black;
+}
+#aya p{
+    font-size: 20px;   
+}
+#aya>li:hover{
+    text-decoration: none;
+    color:rgb(189, 15, 189);
+    font-size: large;
+    text-align: justify;
+}
+#aya>li:visited{
+    color: rgb(240, 2, 2);
+}
+.card-news mark{
+    color:red;
+}
+.card-news >img:hover{
+    transform: scale(1.04);
+}
+.box{
+    background: rgb(228, 111, 2);
+    padding:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.next{
+    padding-top: 770px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.next>a{
+    text-decoration: none;
+    color: black;
+
+}
+.next>a:hover{
+    text-decoration: none;
+    color:black;
+}
+.next>.dichuyen:hover{
+    /* font-size: large; */
+    text-decoration: none; 
+    border-radius: 50px;
+    color:rgb(228, 134, 13);
+    background-color:white;
+    overflow: hidden;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+.dichuyen{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(228, 212, 212);
+    padding: 8px;
+    margin: 9px;
+}
+#key{
+    position: relative;
+    top: -6px;
+    left: 50px;
+}
+.boss{
+    background: rgb(223, 64, 2);
+    padding:2px;
+    
+}
+#leftcolumn .card-news:hover{
+    box-shadow: rgba(0, 0,0, 0.24)0px 5px 20px;
+    transition:linear;
+    -ms-zoom-animation: 500px;
+}
+.last{
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Giới thiệu*/
+.banner{
+    width: 100%;
+}
+.gt{
+    text-align: center;
+}
+.gt1{
+    background-color: orangered;
+    width: 200px;
+    height: 5px;
+    text-align: center;
+    position: relative;
+    top: -20;
+    left: 645;
+}
+.gt2{
+    position: relative;
+    left: 870;
+}
+.gt3>i{
+   font-size: xxx-large;
+}
+.gt4 .gt4if{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(228, 42, 42);
+
+}
+.gt4 .gt4if1{
+    color: rgb(145, 141, 141);
+}
+.gt4{
+    padding-left: 15px;
+}
+.gt3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 130px;
+    display: inline-flex;
+}
+.gt5{
+    position: relative;
+    top: -250;
+    left: 15;
+
+}
+.gt6{
+    position: relative;
+    top: -180;
+    left: 15;
+
+}
+.registration{
+    width: 40%;
+    height: 210px;
+    text-align: center;
+}
+.gioithieu1{
+    position: relative;
+    top: -80;
+}
+.nhomnganh{
+    position: relative;
+    top: -160;
+}
+.nhomnganh1{
+    width: 20%;
+    float: left;
+    padding-left: 65px;
+}
+.nhomnganh2>img:hover{
+    background-color: #ccc;
+}
+.nhomnganh2{
+    position: relative;
+}
+
+.title{
+    line-height: 1.5;
+    padding: 0 25px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 40;
+    left: 5;
+}
+.imgs{
+    width: 100%;
+    height: 27%;
+    
+}
+#nhomnganh{
+    position: relative;
+    top:-110;
+
+
+}
+.banner:hover{
+    transform: scale(1.04);
+}
+.gt7{
+    padding-top: 300px;
+}
+.registration1{
+    width: 40%;
+    height: 210px;
+    text-align: center;
+    position: relative;
+    top:-120;
+}
+.banner1{
+    width: 100%;
+    position: relative;
+    top:-150;
+}
+.cmt{
+    position: relative;
+    top: -80;
+    
+}
+
+
+/* góp ý */
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal-container{
+    background-color: white;
+    width: 800px;
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease 0.3s;
+}
+.modal-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.modal-close:hover{
+    opacity: 1;
+}
+
+.modal-header{
+    background-color: rgb(245, 131, 90);
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.modal-header>i{
+    padding-right: 16px;
+}
+
+.modal-body{
+    padding: 16px;
+}
+.modal-label{
+    display: block;
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.modal-input{
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 24px;
+}
+#send{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(245, 131, 90);
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+#send:hover{
+    background-color: rgb(238, 99, 49);
+    color: white;
+    cursor: pointer;
+}
+.active{
+    display: flex;
+}
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-140px);
+    }to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/* tuyensinh */
+.text-tuyensinh{
+    text-align: center;
+}
+.text-body-tuyensinh{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.text-body-tuyensinh{
+    width: 73.3%;
+    height: 560%;
+    padding: 36px 200px;
+    background-color: #fff;
+}
+.text-body-tuyensinh h3{
+    color: #ff6600;
+    font-weight: bold;
+}
+.table1{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    border: 1px solid #ccc;
+}
+.table2{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 8%;
+    border: 1px solid #ccc;
+}
+.table3{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 3%;
+    border: 1px solid #ccc;
+}
+.table4{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 3%;
+    border: 1px solid #ccc;
+}
+.hoccphi{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* tuyensinh */
+.tuyensinhbox{
+    width: 89%;
+    height: 1350px;
+    padding: 0px 80px;
+    
+}
+
+.search-ic:hover{
+    color: black;
+    background-color: white;
+}
+
+/* dang nhap */
+.signup-box{
+    padding-left: 550px;
+}
+.signup{
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 0.5px solid rgb(206, 200, 200);
+    width: 450px;
+    height: 450px;
+    text-align: center;
+
+}
+.signup>img{
+    margin-top: 30px;
+}
+.signup>.dangnhap{
+    font-size:x-large;
+    line-height: 0px;
+}
+
+.box12 input{
+    margin-top: 30px;
+    margin-left: 45px;
+    display: flex;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.box11{
+    position: relative;
+    top: 55;
+    right: 7;
+}
+
+.signup> .box1{
+     margin-left: -200px; 
+     line-height: 10px;
+}
+.signup>.text-dk{
+    text-decoration: none;
+    color: rgb(15, 118, 236);
+    margin-top: -31px;
+    margin-left: 70px;
+    display: block;
+}
+.box2{
+    width: 60%;
+    height: 50px;
+    border: 0.5px solid rgb(206, 200, 200);
+    background-color: rgb(241, 149, 234);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.box3{
+    width: 60%;
+    height: 50px;
+    border: 0.5px solid rgb(206, 200, 200);
+    background-color: rgb(149, 204, 236);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.box3 >a{
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    line-height: 50px;
+}
+.box2 >a{
+    text-decoration: none;
+    /* font-variant: small-caps; */
+    line-height: 50px;
+}
+.box2>a:hover{
+    color: white;
+    cursor: pointer;
+}
+.box3>a:hover{
+    color: white;
+    cursor: pointer;
+}
+.box10{
+    width: 40px;
+    height: 40px;
+    margin-top: -41px;
+    float: right;
+    margin-right: 28px;
+    font-size: x-large;
+}
+/* dangki */
+.box5 input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 45px;
+    display: flex;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+
+.box7{
+    width: auto;
+    height: 20px;
+}
+.box6{
+    width: 80%;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px ;
+}
+
+
+.box9{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 31px;
+    font-size: x-large;
+}

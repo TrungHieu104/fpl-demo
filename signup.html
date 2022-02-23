@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/FPT_logo_2010.svg/1200px-FPT_logo_2010.svg.png" type="image/x-icon" />
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <a href="https://lms.poly.edu.vn" title="lms.poly.edu.vn">
+            <img src="images/FPT_Polytechnic.png"width="300" height="100">
+        </a>
+        <a href="" class="header_navar-icon" id="js-menu">
+            <i class="fas fa-bars"></i> 
+        </a>
+        <a href="" class="header_navar-icon search-ic" >
+            <i class="fas fa-search"></i> 
+        </a>
+    </div>
+    <div class="mn" id="menu">
+        <hr>
+        <ul class="menu">
+            <li><a class="menu1" href="index.html" ><i class="fas fa-home"></i> TRANG CHỦ   </a></li>
+            <li><a class="menu1" href="introduce.html" > GIỚI THIỆU   </a></li>
+            <li><a class="menu1" href="#leftcolumn" > TIN TỨC    </a></li>
+            <li><a class="menu1" href="tuyensinh.html" > TUYỂN SINH   </a> </li>
+            <li><a class="menu1" href="tuyendung.html" > TUYỂN DỤNG   </a></li>
+            <li><a class="menu1" id="js-feedback" href="#" > GÓP Ý   </a></li>
+            <li><a href="signup.html" id="login" > ĐĂNG NHẬP / ĐĂNG KÍ</a></li>
+      
+        </ul>
+        <hr>
+    </div>
+    <div class="signup-box">
+        <div class="signup">
+            <p class="dangnhap">Đăng nhập</p>
+            <p>Tiếp tục tới FPL</p>
+            <form class="box12">
+                <input type="text" required placeholder="Email hoặc MSSV....">
+                <!-- <input type="submit" value="Send"> -->
+                <div class="box10 box11"> <a href="#" class="next" title="next"><i class="fas fa-chevron-circle-right"></i></a></div>
+            </form>
+            <p class="box1">Bạn chưa có tài khoản?</p> <a class="text-dk" href="registration.html">Đăng kí ngay!</a>
+           
+            <p>- - - - - - - - - - OR - - - - - - - - - -</p>
+            <div class="box2"><a href="https://accounts.google.com/signin/v2/identifier?hl=vi&continue=https%3A%2F%2Fmail.google.com&service=mail&ec=GAlAFw&flowName=GlifWebSignIn&flowEntry=AddSession"><i class="fab fa-google"></i> Sign up with Google </a></div>
+            <div class="box3"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> Sign up with Facebook</a></div>
+            
+        </div>
+    </div>
+    <div class="modal" id="feedback">
+        <div class="modal-container">
+            <div class="modal-close" id="js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <header class="modal-header"> 
+                <i class="fas fa-comments-dollar"></i>
+                Feedback
+            </header>
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <i class="far fa-envelope"></i>
+                    Your email
+                </label>
+                <input type="text" class="modal-input" placeholder="Type here...">
+
+
+                <label for="" class="modal-label">
+                    <i class="fas fa-comment-dots"></i>
+                    Your feedback
+                </label>
+                <input type="text" class="modal-input" placeholder="Type here...">
+
+
+                <button id="send">
+                    Send
+                    <i class="far fa-paper-plane"></i>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        //mở góp ý
+        const feedbackbtn = document.querySelector('#js-feedback')
+        const feedbackModal = document.querySelector('#feedback')
+        feedbackbtn.addEventListener('click', function (e) {
+            feedbackModal.classList.add('active')
+            e.preventDefault()
+        })
+        //đóng góp ý
+        const feedbackclosebtn = document.querySelector('#js-modal-close')
+        feedbackclosebtn.addEventListener('click', function(e){
+            feedbackModal.classList.remove('active')
+        })
+    </script>
+    <script src="https://uhchat.net/code.php?f=1b8366"></script>
+    
+</body>
+</html>
